@@ -60,13 +60,50 @@
          <property name="title">
           <string>one</string>
          </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QGroupBox" name="Two">
-         <property name="title">
-          <string>two</string>
-         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QCheckBox" name="lin_spl">
+            <property name="text">
+             <string>lin</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="Her_spl">
+            <property name="text">
+             <string>herm</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="CR_spl">
+            <property name="text">
+             <string>cat_rom</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="Cub_spl">
+            <property name="text">
+             <string>cub</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="Aki_spl">
+            <property name="text">
+             <string>aki</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="mon_spl">
+            <property name="text">
+             <string>mon</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
       </layout>
@@ -103,9 +140,6 @@
      <string>File</string>
     </property>
     <addaction name="fopen"/>
-    <addaction name="fsave"/>
-    <addaction name="separator"/>
-    <addaction name="plrand"/>
    </widget>
    <addaction name="File_opt"/>
   </widget>
